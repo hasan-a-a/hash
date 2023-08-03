@@ -1,8 +1,26 @@
 const accounts01 = [["admin01","123"],["admin02","234"],["admin03","345"]]
 const accounts02 = {admin01:"123", admin02:"234", admin03:"345"}
 let p1 = {name:"hassan",age:33,state:"beirut"}
-// let p2 = {name:"hassan",age:33,state:"beirut"}
-// let p3 = {name:"hassan",age:33,state:"beirut"}
+// let users = {
+//     user01:{
+//         name:"hassan",
+//         age:33,
+//         state:"beirut"
+//     },
+//     user02:{
+//         name:"ali",
+//         age:"67"
+//     },
+//     user03:{
+//         name:"mohamed",
+//         age:"89"
+//     },
+//     user04:{
+//         name:"mouad",
+//         age:"12"
+//     }
+// }
+
 // console.log(accounts01)
 // console.log(accounts02.keys)
 // console.log(accounts02.admin03)
