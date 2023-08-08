@@ -50,13 +50,16 @@
 // console.log(number)
 // number.splice(1,3,20,30,40,50)  // (interval index , replacement)
 // console.log(number)
-let person = {
+let persone = {
     name:"hassan",
+    "middlename":"sleiman",
+    "lastname":"ali ahmad",
     age:"33",
     state:"beirut",
     greet: function(){
         console.log(`hello my name is ${person.name}`)
     }
 }
-console.log(`my name is ${person.name} ali ahmad and im ${person.age} years old, living in ${person.state}`)
-console.log(person.greet())
+console.log(`my last name is ${persone.name} ${persone["middlename"]} ${persone.lastname }`)
+// console.log(`my name is ${person.name} ali ahmad and im ${person.age} years old, living in ${person.state}`)
+// console.log(person.greet())
