@@ -1,7 +1,7 @@
-const accounts01 = [["admin01","123"],["admin02","234"],["admin03","345"]]
-const accounts02 = {admin01:"123", admin02:"234", admin03:"345"}
-let p1 = {name:"hassan",age:33,state:"beirut"}
-// let users = {
+// const accounts01 = [["admin01","123"],["admin02","234"],["admin03","345"]]
+// const accounts02 = {admin01:"123", admin02:"234", admin03:"345"}
+// let p1 = {name:"hassan",age:33,state:"beirut"}
+// // let users = {
 //     user01:{
 //         name:"hassan",
 //         age:33,
@@ -33,11 +33,20 @@ let p1 = {name:"hassan",age:33,state:"beirut"}
 //     }
 
 // }
-function getage(){
-    let name=prompt("enter your name")
-    if(p1.name == name){
-        console.log(`${p1.name} is ${p1.age} years old`)
-    }else{
-        console.log("wrong name")
-    }
-}
+// function getage(){
+//     let name=prompt("enter your name")
+//     if(p1.name == name){
+//         console.log(`${p1.name} is ${p1.age} years old`)
+//     }else{
+//         console.log("wrong name")
+//     }
+// }
+//   [0,1,2,3,4] INDEX
+// let number = [1,2,3,4,5]
+// console.log(number.length-1)
+// let sliced = number.slice(0,4) (index, take abel ekhir index ) = slice
+// console.log(number.length-1)
+// console.log(sliced)
+// console.log(number)
+// number.splice(1,3,20,30,40,50)  // (interval index , replacement)
+// console.log(number)
