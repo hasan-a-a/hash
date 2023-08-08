@@ -50,3 +50,12 @@
 // console.log(number)
 // number.splice(1,3,20,30,40,50)  // (interval index , replacement)
 // console.log(number)
+let person = {
+    name:"hassan",
+    age:"33",
+    state:"beirut",
+    greet: function(){
+        console.log(`hello my name is ${this.name}`)
+    }
+}
+alert(`${person.name} ali ahmad`)
